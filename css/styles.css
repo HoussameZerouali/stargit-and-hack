@@ -19,11 +19,12 @@ body {
   }
 
 
-.img-section img {
+img {
   
   height: 250px;
-  display: flex;
-  margin: auto;
+  text-align: end;
+  
+  
   
   
   
