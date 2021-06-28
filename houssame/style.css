@@ -1,0 +1,39 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.section-1 {
+    display: flex;
+    
+    justify-content: center;
+}
+
+.section-2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.section-3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.my-picture {
+    height: 350px;
+    width: 350px;
+}
+
+ul img {
+    height: 250px;
+    width: 250px;
+}
+
+ul {
+    list-style: none;
+}
