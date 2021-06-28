@@ -19,12 +19,9 @@ body {
   }
 
 
-img {
-  
-  height: 250px;
-  text-align: end;
-  
-  
+.img-section img {
+  margin: 0 auto;
+  width: 300px;
   
   
   
