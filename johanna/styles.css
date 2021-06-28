@@ -19,35 +19,56 @@ h1 {
 
 h2 {
     text-transform: uppercase;
+    color: red;
     font-weight: 600;
 }
 
-h3 {
-    list-style-type: none;
+#music h3 {
     text-transform: uppercase;
-    font-weight: normal;
+    font-weight: 600;
+    text-align: center;
+    color:black;
+    font-size: 1.5em;
 }
 
-
-
-.hobby img {
-    height: 50px;
+#watching h3 {
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    color:plum;
+    font-size: 1.5em;
 }
+
 
 .singing {
     display: flex;
     justify-content: center;
 }
 
-.div-hobby {
+#music .div-hobby {
     display: flex;
     flex-direction: row;
+}
+
+
+#watching .div-hobby {
+    display: flex;
+    flex-direction: column;
+    background-color: beige
 }
 
 .hobby {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
+
+#watching .article-hobby {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 .article-hobby {
     display: flex; 
@@ -57,7 +78,26 @@ h3 {
     margin: 10px;
 }
 
-.article-hobby img {
-    width: 100%;
-    max
+.article-hobby a {
+    border: 1px solid grey;
+    box-shadow: 5px 3px 3px grey;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin: 1em;
+    width: 300px;
+    background-color: white;
+}
+
+
+#music img {
+    height: 75px;
+    width: auto
+}
+
+
+#watching img {
+    height: 300px;
 }
