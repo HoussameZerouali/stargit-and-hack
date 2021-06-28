@@ -1,6 +1,10 @@
 body {
-    font-family: Avenir;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
+
+.links-section {
+  text-align: center;
+}
   
   h1 {
       font-family: Arial, Helvetica, sans-serif;
@@ -13,3 +17,19 @@ body {
   h2 {
     font-weight: bold;
   }
+
+
+.img-section img {
+  
+  height: 250px;
+  display: flex;
+  margin: auto;
+  
+  
+  
+}
+
+li {
+  list-style: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
